@@ -112,7 +112,7 @@ def sCn(o as string): return o[00:60] + o[00:00]
 
 def eadgbe(qp as string):
   x as string = sCn(Arche[qp])
-  print "\t" + qp
+  print "\t" + qp + "~eadgbe"
   print "\t" + x[20:60] + x[00:20] # En
   print "\t" + x[55:60] + x[00:55] # Bn
   print "\t" + x[35:60] + x[00:35] # Gn
@@ -122,7 +122,7 @@ def eadgbe(qp as string):
 
 def fkbjdn(qp as string):
   x as string = sCn(Arche[qp])
-  print "\t" + qp
+  print "\t" + qp + "~fkbjdn"
   print "\t" + x[10:60] + x[00:10] # Dn
   print "\t" + x[50:60] + x[00:50] # Bj
   print "\t" + x[30:60] + x[00:30] # Fk
@@ -132,7 +132,7 @@ def fkbjdn(qp as string):
 
 def beadgcf(qp as string):
   x as string = sCn(Arche[qp])
-  print "\t" + qp
+  print "\t" + qp + "~beadgcf"
   print "\t" + x[25:60] + x[00:25] # Fn
   print "\t" + x[00:60] + x[00:00] # Cn
   print "\t" + x[35:60] + x[00:35] # Gn
@@ -143,7 +143,7 @@ def beadgcf(qp as string):
 
 def bfbfb(qp as string):
   x as string = sCn(Arche[qp])
-  print "\t" + qp
+  print "\t" + qp + "~bfbfb"
   print "\t" + x[55:60] + x[00:55] # Bn
   print "\t" + x[25:60] + x[00:25] # Fn
   print "\t" + x[55:60] + x[00:55] # Bn
@@ -152,7 +152,7 @@ def bfbfb(qp as string):
 
 def cgdae(qp as string):
   x as string = sCn(Arche[qp])
-  print "\t" + qp
+  print "\t" + qp + "~cgdae"
   print "\t" + x[20:60] + x[00:20] # En
   print "\t" + x[45:60] + x[00:45] # An
   print "\t" + x[10:60] + x[00:10] # Dn
