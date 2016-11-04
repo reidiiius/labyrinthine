@@ -12,9 +12,23 @@ Speleology
 ### Usage
 command line
 
+
     cd labyrinthine
 
+
+interpreter
+
+
     booi daedalus.boo | less
+
+
+compiler
+
+
+    booc daedalus.boo
+
+    ./daedalus.exe
+
 
 ---
 

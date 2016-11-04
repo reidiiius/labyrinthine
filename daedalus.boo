@@ -1,4 +1,4 @@
-#!/usr/bin/booi
+#!/usr/bin/env booi
 
 Arche as Hash = {
       'j2' : "HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ AgUr ____ FePu ",
@@ -159,6 +159,8 @@ def cgdae(qp as string):
   print "\t" + x[35:60] + x[00:35] # Gn
   print "\t" + x[00:60] + x[00:00] # Cn
 
+print
+
 for qp in Arche.Keys:
   print
   eadgbe(qp)
@@ -171,4 +173,6 @@ for qp in Arche.Keys:
   print
   cgdae(qp)
   print
+
+print
 
